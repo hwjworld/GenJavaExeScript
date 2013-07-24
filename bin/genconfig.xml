@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genconfig>
+	<scriptfilename>startArchive.cmd</scriptfilename>
+	<project-dir>e:/ab</project-dir>
+	<lib-path>/export/home1/bea/user_projects/domains/neweditordomain/applications/DefaultWebApp/WEB-INF/lib</lib-path>
+	<jre-path>/export/home1/bea/jdk142_05</jre-path>
+	<!-- 1:windows/dos 2:linux/unix/solaris -->
+	<system>2</system>
+	<mainClass>com.founder.enp.archive.ArchiveMain</mainClass>
+</genconfig>

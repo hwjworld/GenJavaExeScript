@@ -1,0 +1,4 @@
+#在此设置JAVA_HOME,CLASS_PATH
+JAVA_HOME=F:/ProgramFiles/Java/jdk1.5.0_13
+LIB_PATH=./
+CLASS_PATH=:.:$LIB_PATH:$LIB_PATH/genbat.jar:
