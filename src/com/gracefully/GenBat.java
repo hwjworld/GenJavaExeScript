@@ -61,7 +61,7 @@ public class GenBat {
 		setSystem(WINDOWS_WILD);
 		createBatch(gb);
 //		setSystem(LINUX);
-		setSystem(WINDOWS_WILD);
+		setSystem(LINUX_WILD);
 		createBatch(gb);
 	}
 	
@@ -80,7 +80,7 @@ public class GenBat {
 			BatchCreator bc = getCreator();
 			private BatchCreator getCreator() {
 				if(bc == null){
-					if(system==WINDOWS){
+					if(system==WINDOWS_WILD){
 						bc = gb.new WindowsBatchCreator(system,gb);
 					}else{
 						bc = gb.new LinuxBatchCreator(system,gb);
